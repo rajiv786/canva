@@ -1,0 +1,19 @@
+<form method="post" action="/videopost">
+
+    <iframe
+          src="https://www.youtube.com/embed/{{vid}}"
+          frameborder="0"
+          width="720" height="405"
+          allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+
+    <br>
+    <input type="text" name="vid" placeholder="Video id"/>
+    <br>
+
+    <input type="image"
+           src="../static/submit.png"
+           width="200"
+           height="60"
+           alt="submit"/>
+</form>
